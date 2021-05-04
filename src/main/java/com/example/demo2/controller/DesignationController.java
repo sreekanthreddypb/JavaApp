@@ -30,7 +30,6 @@ public class DesignationController {
 	@GetMapping("/getAllDEsignation")
 	public ResponseEntity<List<Designation>> getDesignation(){
 		return new ResponseEntity<List<Designation>>(DesignationService.getDesignation(), HttpStatus.OK);
-		System.out.println("No data Available");
 	}
 		
 	
