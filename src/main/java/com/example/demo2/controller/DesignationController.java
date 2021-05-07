@@ -34,7 +34,7 @@ public class DesignationController {
 	
 	@GetMapping("/getDesignation")
 	public ResponseEntity List<?> getNameAndDesignation(){
-		List<Designation> job = new ArrayList<>();
+		List<Designation> job = new ArrayList<Designation>();
 		Designation obj1 = new Designation();
 		obj1.setDesignation("Lead");
 		Designation obj2 = new Designation();
