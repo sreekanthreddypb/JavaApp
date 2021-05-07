@@ -33,7 +33,7 @@ public class DesignationController {
 	}
 	
 	@GetMapping("/getDesignation")
-	public ResponseEntity List<?> getNameAndDesignation(){
+	public ResponseEntity<List<Designation>> getNameAndDesignation(){
 		List<Designation> job = new ArrayList<Designation>();
 		Designation obj1 = new Designation();
 		obj1.setDesignation("Lead");
