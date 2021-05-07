@@ -37,6 +37,4 @@ public class DesignationController {
 		return "Welcome to the Home Page";
 	}
 		
-
-
 }
