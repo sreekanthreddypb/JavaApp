@@ -17,7 +17,7 @@ public class DesignationServiceImpl implements DesignationService {
 	@Override
 	public Designation create(Designation employee) {
 		// TODO Auto-generated method stub
-		System.out.println("Create request.);
+		System.out.println("Create request.");
 		return repo.save(employee);
 	}
 	@Override
