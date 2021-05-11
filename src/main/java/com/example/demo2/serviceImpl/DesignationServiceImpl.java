@@ -23,7 +23,7 @@ public class DesignationServiceImpl implements DesignationService {
 	@Override
 	public List<Designation> getDesignation() {
 		// TODO Auto-generated method stub
-		System.out.println("Get request");
+		System.out.println("Get request.");
 		return repo.findAll();
 	}
 
