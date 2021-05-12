@@ -34,7 +34,7 @@ public class DesignationController {
 	
 	@GetMapping("/Home")
 	public String welcome(){
-		return "Welcome to the Home Page.";
+		return "\t Welcome to the Home Page.";
 	}
 		
 }
