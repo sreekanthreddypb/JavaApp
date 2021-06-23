@@ -38,6 +38,11 @@ public class EmployeedetailsController {
 		
 	}
 	
+	@GetMapping("/Home")
+	public String welcome(){
+		return "\t Welcome to the Home Page!!";
+	}
+	
 
 	
 	/*
